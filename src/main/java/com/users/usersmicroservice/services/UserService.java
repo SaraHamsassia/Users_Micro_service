@@ -1,8 +1,7 @@
-package services;
+package com.users.usersmicroservice.services;
 
-import entities.Role;
-import entities.User;
-import org.springframework.stereotype.Service;
+import com.users.usersmicroservice.entities.Role;
+import com.users.usersmicroservice.entities.User;
 
 public interface UserService {
     User saveUser(User user);
